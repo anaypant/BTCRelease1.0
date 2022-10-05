@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e2d4d1"
+    tools:context=".MainActivity"
+
+    >
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_marginTop="0dp"
+        android:background="@color/white">
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/BTCHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:backgroundTint="@color/white"
+            android:text="Be The \nChange"
+            android:textColor="#03A9F4"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:backgroundTint="@color/white"/>
+
+        <TextView
+            android:id="@+id/NeatUserTitle"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="15dp"
+            android:text="Howdy,user!"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/UserProfile"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="70dp"
+            android:backgroundTint="@color/black"
+            app:srcCompat="@drawable/ic_baseline_person_24" />
+
+        <ImageButton
+            android:id="@+id/AddFriends"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="#86BC99"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/ic_baseline_group_add_24" />
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/NewsTabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_below="@id/toolbar"
+        android:layout_marginTop="0dp"
+        android:backgroundTint="@color/white"
+        app:tabIndicatorHeight="3.5dp"
+        app:tabMode="scrollable"
+        app:tabSelectedTextColor="#03A9F4"
+        app:tabTextColor="#6188CF">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/TrendingTab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trending" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/EconomyTab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Economy" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/EnvironmentTab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Environment" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/SocietyTab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Society" />
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/NewsTabLayout"
+        android:layout_marginTop="0dp">
+
+    </androidx.viewpager2.widget.ViewPager2>
+</RelativeLayout>
