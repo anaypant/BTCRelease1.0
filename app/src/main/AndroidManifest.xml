@@ -12,9 +12,9 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@drawable/ic_btcicon"
-        android:label="Be The Change"
-        android:roundIcon="@drawable/ic_btcicon"
+        android:icon="@drawable/qrated_logo"
+        android:label="Qrated"
+        android:roundIcon="@drawable/qrated_logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.BTCRelease"
         tools:targetApi="31">

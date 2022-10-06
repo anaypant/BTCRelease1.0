@@ -19,16 +19,15 @@
 
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/BTCHeader"
+            android:id="@+id/QratedHeader"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@color/white"
-            android:backgroundTint="@color/white"
-            android:text="Be The \nChange"
-            android:textColor="#03A9F4"
+            android:text="Qrated"
+            android:textColor="@color/purple_700"
             android:textSize="14sp"
             android:textStyle="bold"
-            app:backgroundTint="@color/white"/>
+            app:backgroundTint="@color/white" />
 
         <TextView
             android:id="@+id/NeatUserTitle"

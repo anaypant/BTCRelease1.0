@@ -11,7 +11,6 @@ import android.os.Handler;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.example.btcrelease.Adapters.TabAdapter;
 import com.example.btcrelease.Interfaces.FirebaseBoolCallback;
@@ -22,7 +21,6 @@ import com.google.android.material.button.MaterialButton;
 import com.google.android.material.tabs.TabItem;
 import com.google.android.material.tabs.TabLayout;
 
-import java.util.ArrayList;
 import java.util.Objects;
 
 public class MainActivity extends AppCompatActivity {
@@ -53,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         fancyTitle = findViewById(R.id.NeatUserTitle);
         settingsButton = findViewById(R.id.UserProfile);
         addFriendsButton = findViewById(R.id.AddFriends);
-        btcHeader = findViewById(R.id.BTCHeader);
+        btcHeader = findViewById(R.id.QratedHeader);
 
         tabLayout = findViewById(R.id.NewsTabLayout);
         trendingItem = findViewById(R.id.TrendingTab);

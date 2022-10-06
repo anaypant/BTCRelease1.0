@@ -4,6 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Apps/BTCRelease/app/src/main/res/drawable-v24/down_vote_color_selector.xml" value="0.1305" />
+        <entry key="..\:/Apps/BTCRelease/app/src/main/res/drawable/ic_qrated_logo.xml" value="0.138" />
+        <entry key="..\:/Apps/BTCRelease/app/src/main/res/drawable/qrated_logo.xml" value="0.14666666666666667" />
         <entry key="..\:/Apps/BTCRelease/app/src/main/res/layout/activity_add_users.xml" value="0.17552083333333332" />
         <entry key="..\:/Apps/BTCRelease/app/src/main/res/layout/activity_comment.xml" value="0.17552083333333332" />
         <entry key="..\:/Apps/BTCRelease/app/src/main/res/layout/activity_login.xml" value="0.17552083333333332" />
